@@ -11,7 +11,7 @@ public class MergeSort {
         int[] numbers = new int[ACTUAL_SIZE_OF_ARRAY];
 
         for (int i = 0; i < numbers.length; i++) {
-            numbers[i] = random.nextInt(1000000);
+            numbers[i] = random.nextInt(100);
         }
 
         System.out.println("Starting to sort array.");
